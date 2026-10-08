@@ -138,6 +138,24 @@ $audit-agents-md 审计并精简 /absolute/project 内的技能和 AGENTS.md，�
 
 [查看技能定义](skills/audit-agents-md/SKILL.md) · [方法来源](skills/audit-agents-md/references/source-notes.md)
 
+### asd-ste100-zh
+
+中文技术清晰写作技能，用于技术说明、操作步骤、错误信息和工程汇报。改写时保留事实、条件、风险、术语和要求强度；不提供官方 ASD-STE100 中文合规认证。
+
+**安装：**
+
+```bash
+npx skills add https://github.com/lltx/skills --skill asd-ste100-zh
+```
+
+**用法：**
+
+```text
+用 $asd-ste100-zh 改写下面的技术说明，保留全部条件、风险、数值和单位。
+```
+
+[查看技能说明](skills/asd-ste100-zh/README.md) · [查看技能定义](skills/asd-ste100-zh/SKILL.md)
+
 ## 贡献
 
 欢迎提交 PR 添加新的技能！每个技能需要在 `skills/` 目录下创建独立文件夹，并包含 `SKILL.md` 定义文件。
